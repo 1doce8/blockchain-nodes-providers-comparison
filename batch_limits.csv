@@ -1,0 +1,6 @@
+Provider, Product, Max sucessfull batch size, Failed batch size, Status code on exceed,Response body on exceed
+Infura, Ethereum, 1900, 2000, 502, 502 Bad Gateway
+Ankr, Nodes service, 64, 70, 200, Batch request Size Exceed. The limit batch size is 64 and your request batch size is 70
+Ankr, Community RPC, 300, 400, 500, 500 Internal Server Error
+Getblock, Shared nodes, 1100, 1200, 502, upstream connect error or disconnect/reset before headers. reset reason: protocol error
+Alchemy, Ethereum, 60, 429, 70, Your app has exceeded its compute units per second capacity. If you have retries enabled you can safely ignore this message.
